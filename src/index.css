@@ -1,0 +1,21 @@
+/* Basic styling for the grid container */
+.grid-container {
+  display: grid;
+  gap: 16px;
+  padding: 4px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+/* Styling for each grid item */
+.grid-item {
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+
+.cart-image {
+  width: 180px;
+  height: 240px;
+}
